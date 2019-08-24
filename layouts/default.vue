@@ -1,12 +1,21 @@
 <template>
   <div>
-    <nuxt/>
+    <nuxt />
   </div>
 </template>
 
-<style>
+
+<style lang="sass">
+  $white: #fff
+</style>
+
+<style >
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap");
+
+
+
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -16,7 +25,22 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.container{
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
 }
@@ -49,5 +73,7 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
 </style>
 
+ 
